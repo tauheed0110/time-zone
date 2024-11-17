@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+#container{
+    padding: 2rem;
+}
+
+.output{
+    border: 1px solid black;
+    width: 100%;
+    padding: 1rem;
+}
+
+#search-output{
+    border: 1px solid white;
+}
+#logHeading{
+    margin: 1rem 0;
+}
+.output>p{
+    margin: 0.4rem 0;
+}
+.latlong{
+    display: flex;
+}
+.latlong>p{
+    width: 50%;
+}
+
+#search-timezone{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+input{
+    height: 3rem;
+    width: 100%;
+    outline: none;
+    padding-left: 1rem;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+#submit{
+    border: none;
+    padding: 1rem 3rem;
+}
+
+#error{
+    color: red;
+    margin: 0.4rem 0;
+}
+
+.green{
+    color: green;
+}
